@@ -1,12 +1,9 @@
-# -*- coding: utf-8 -*-
-
+# -*- coding: utf-8 -*- FOR GAME 
 import gc
 try:
     import pyb
 except ImportError:
     import machine as pyb
-
-
 class WS2812:
     """
     Driver for WS2812 RGB LEDs. May be used for controlling single LED or chain
@@ -120,4 +117,4 @@ class WS2812:
         off = self.buf_bytes[0]
         for index in range(end * 12, self.buf_length):
             buf[index] = off
-            index += 1
+            index += 
