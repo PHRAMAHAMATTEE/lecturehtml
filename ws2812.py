@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*- FOR GAME 
+# -*- coding: utf-8 -*- FOR GAME Edited 16 at University Sau
 import gc
 try:
     import pyb
@@ -73,7 +73,6 @@ class WS2812:
         Note: If you find this function ugly, it's because speed optimisations
         beated purity of code.
         """
-
         buf = self.buf
         buf_bytes = self.buf_bytes
         intensity = self.intensity
